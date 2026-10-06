@@ -11,3 +11,9 @@ __pycache__/
 .nox/
 .pnpm-store/
 *.py[cod]
+
+# Service runtime data (durable attestation logs)
+data/
+
+# Generated test-only private key fixtures (regenerate with tools/gen-keys.mjs)
+test/fixtures/
